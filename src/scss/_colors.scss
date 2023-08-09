@@ -1,0 +1,71 @@
+$color-primary: #34A760;
+$color-primary-red:#D81F1F;
+$color-secondary-blue:#00A0FF;
+$color-primary-text:#00120B;
+$color-placeholder-text:#A2A8A6;
+$color-input-box-label:#676E7A;
+$color-input-box-border:#DDE0E5;
+$color-line-separator:#979797;
+$color-background-light: #DDDDDD;
+$color-navyblue: #0a2365;
+
+
+.color-banner {
+  color: #4C4C4C;
+}
+
+.primary {
+  color: $color-primary;
+}
+
+.bg-primary {
+  background-color: $color-primary;
+}
+
+.border-primary {
+  border-color: $color-primary;
+}
+
+.clr-secondary {
+  color: #91917f;
+}
+
+.clr-white {
+  color: #FFFF;
+}
+
+.bg-secondary-light {
+  background-color: $color-background-light;
+}
+
+.clr-primary-red {
+  color: $color-primary-red;
+}
+
+.clr-secondary-blue {
+  color: $color-secondary-blue;
+}
+
+.clr-primary-text {
+  color: $color-primary-text;
+}
+
+.clr-placeholder-text {
+ color: $color-placeholder-text;
+}
+
+.clr-input-box-label {
+  color: $color-input-box-label;
+}
+
+.clr-input-box-border {
+  border-color: $color-input-box-border;
+}
+
+.color-line-separator {
+  color: $color-line-separator
+}
+
+.color-gold {
+  color: gold
+}

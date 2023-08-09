@@ -1,0 +1,484 @@
+{
+  "users": [
+    {
+      "id": 2,
+      "name": "testBusiness2",
+      "location": "Bengaluru",
+      "userType": "2",
+      "agree": true,
+      "annualIncome": "Please select an option",
+      "date": "27/07/2018",
+      "yearRange": [
+        2020,
+        2040
+      ],
+      "age": "4",
+      "single": {
+        "label": "14-18",
+        "value": "2"
+      },
+      "multi": [],
+      "search": [],
+      "disable": [
+        {
+          "label": ">23",
+          "value": "3"
+        }
+      ],
+      "async": [
+        {
+          "id": 1,
+          "label": "1",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "testBusiness3",
+      "location": "Bengaluru",
+      "agree": false
+    },
+    {
+      "username": "participanttwo@mailinator.com",
+      "password": "Welcome@123",
+      "id": 4
+    },
+    {
+      "username": "participanttwo@mailinator.com",
+      "password": "Welcome@123",
+      "id": 5
+    },
+    {
+      "username": "participanttwo@mailinator.com",
+      "password": "Welcome@123",
+      "id": 6
+    },
+    {
+      "username": "participanttwo@mailinator.com",
+      "password": "Welcome@123",
+      "id": 7
+    }
+  ],
+  "options": [
+    {
+      "id": 1,
+      "label": "1",
+      "value": "1"
+    },
+    {
+      "id": 2,
+      "label": "2",
+      "value": "2"
+    },
+    {
+      "id": 3,
+      "label": "3",
+      "value": "3"
+    }
+  ],
+  "pie": [
+    {
+      "id": 0,
+      "data": [
+        {
+          "criticality": "High",
+          "percentage": 0
+        },
+        {
+          "criticality": "Moderate",
+          "percentage": 100
+        },
+        {
+          "criticality": "Low",
+          "percentage": 0
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "data": [
+        {
+          "criticality": "High",
+          "percentage": 30
+        },
+        {
+          "criticality": "Moderate",
+          "percentage": 30
+        },
+        {
+          "criticality": "Low",
+          "percentage": 40
+        }
+      ]
+    }
+  ],
+  "second": [
+    {
+      "criticality": "High",
+      "percentage": 70
+    },
+    {
+      "criticality": "Moderate",
+      "percentage": 10
+    },
+    {
+      "criticality": "Low",
+      "percentage": 20
+    },
+    {
+      "criticality": "Info",
+      "percentage": 0
+    }
+  ],
+  "third": [
+    {
+      "criticality": "High",
+      "percentage": 70
+    },
+    {
+      "criticality": "Moderate",
+      "percentage": 0
+    },
+    {
+      "criticality": "Low",
+      "percentage": 20
+    },
+    {
+      "criticality": "Info",
+      "percentage": 10
+    }
+  ],
+  "stackedBar": [
+    {
+      "id": 0,
+      "high": [
+        {
+          "x": "17th Aug",
+          "y": 0
+        },
+        {
+          "x": "18th Aug",
+          "y": 0
+        },
+        {
+          "x": "19th Aug",
+          "y": 0
+        },
+        {
+          "x": "20th Aug",
+          "y": 0
+        },
+        {
+          "x": "21th Aug",
+          "y": 0
+        },
+        {
+          "x": "22th Aug",
+          "y": 0
+        },
+        {
+          "x": "23th Aug",
+          "y": 0
+        }
+      ],
+      "medium": [
+        {
+          "x": "17th Aug",
+          "y": 0
+        },
+        {
+          "x": "18th Aug",
+          "y": 0
+        },
+        {
+          "x": "19th Aug",
+          "y": 0
+        },
+        {
+          "x": "20th Aug",
+          "y": 0
+        },
+        {
+          "x": "21th Aug",
+          "y": 0
+        },
+        {
+          "x": "22th Aug",
+          "y": 0
+        },
+        {
+          "x": "23th Aug",
+          "y": 0
+        }
+      ],
+      "low": [
+        {
+          "x": "17th Aug",
+          "y": 0
+        },
+        {
+          "x": "18th Aug",
+          "y": 0
+        },
+        {
+          "x": "19th Aug",
+          "y": 0
+        },
+        {
+          "x": "20th Aug",
+          "y": 0
+        },
+        {
+          "x": "21th Aug",
+          "y": 30
+        },
+        {
+          "x": "22th Aug",
+          "y": 0
+        },
+        {
+          "x": "23th Aug",
+          "y": 0
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "high": [
+        {
+          "x": "17th Aug",
+          "y": 0
+        },
+        {
+          "x": "18th Aug",
+          "y": 0
+        },
+        {
+          "x": "19th Aug",
+          "y": 0
+        },
+        {
+          "x": "20th Aug",
+          "y": 0
+        },
+        {
+          "x": "21th Aug",
+          "y": 0
+        },
+        {
+          "x": "22th Aug",
+          "y": 0
+        },
+        {
+          "x": "23th Aug",
+          "y": 0
+        }
+      ],
+      "medium": [
+        {
+          "x": "17th Aug",
+          "y": 0
+        },
+        {
+          "x": "18th Aug",
+          "y": 0
+        },
+        {
+          "x": "19th Aug",
+          "y": 0
+        },
+        {
+          "x": "20th Aug",
+          "y": 0
+        },
+        {
+          "x": "21th Aug",
+          "y": 0
+        },
+        {
+          "x": "22th Aug",
+          "y": 0
+        },
+        {
+          "x": "23th Aug",
+          "y": 0
+        }
+      ],
+      "low": [
+        {
+          "x": "17th Aug",
+          "y": 0
+        },
+        {
+          "x": "18th Aug",
+          "y": 0
+        },
+        {
+          "x": "19th Aug",
+          "y": 0
+        },
+        {
+          "x": "20th Aug",
+          "y": 0
+        },
+        {
+          "x": "21th Aug",
+          "y": 0
+        },
+        {
+          "x": "22th Aug",
+          "y": 0
+        },
+        {
+          "x": "23th Aug",
+          "y": 0
+        }
+      ]
+    }
+  ],
+  "campaignActivity2": {
+    "high": [
+      {
+        "x": "Vulnerabilities  submittedBy researcher",
+        "y": 10
+      },
+      {
+        "x": "Duplicates",
+        "y": 90
+      },
+      {
+        "x": "Vulnerabilities under Vulhunt Review",
+        "y": 6
+      },
+      {
+        "x": "Final Vulnerabilities Submitted to Client",
+        "y": 7
+      }
+    ],
+    "medium": [
+      {
+        "x": "Vulnerabilities  submittedBy researcher",
+        "y": 5
+      },
+      {
+        "x": "Duplicates",
+        "y": 6
+      },
+      {
+        "x": "Vulnerabilities under Vulhunt Review",
+        "y": 7
+      },
+      {
+        "x": "Final Vulnerabilities Submitted to Client",
+        "y": 8
+      }
+    ],
+    "low": [
+      {
+        "x": "Vulnerabilities  submittedBy researcher",
+        "y": 6
+      },
+      {
+        "x": "Duplicates",
+        "y": 7
+      },
+      {
+        "x": "Vulnerabilities under Vulhunt Review",
+        "y": 8
+      },
+      {
+        "x": "Final Vulnerabilities Submitted to Client",
+        "y": 9
+      }
+    ]
+  },
+  "campaignActivity": {
+    "high": [
+      {
+        "x": "Vulnerabilities  submittedBy researcher",
+        "y": 10
+      },
+      {
+        "x": "Vulnerabilities under Vulhunt Review",
+        "y": 2
+      }
+    ],
+    "medium": [
+      {
+        "x": "Vulnerabilities  submittedBy researcher",
+        "y": 2
+      },
+      {
+        "x": "Vulnerabilities under Vulhunt Review",
+        "y": 2
+      }
+    ],
+    "low": [
+      {
+        "x": "Vulnerabilities  submittedBy researcher",
+        "y": 1
+      },
+      {
+        "x": "Final Vulnerabilities Submitted to Client",
+        "y": 1
+      }
+    ]
+  },
+  "clientAcitivity": {
+    "high": [
+      {
+        "x": "Vulnerabilities sent to dev",
+        "y": 10
+      },
+      {
+        "x": "Patched Vulnerability",
+        "y": 30
+      },
+      {
+        "x": "To be Revalidated",
+        "y": 20
+      },
+      {
+        "x": "Closed Vulnerability",
+        "y": 30
+      }
+    ],
+    "medium": [
+      {
+        "x": "Vulnerabilities sent to dev",
+        "y": 20
+      },
+      {
+        "x": "Patched Vulnerability",
+        "y": 20
+      },
+      {
+        "x": "To be Revalidated",
+        "y": 30
+      },
+      {
+        "x": "Closed Vulnerability",
+        "y": 40
+      }
+    ],
+    "low": [
+      {
+        "x": "Vulnerabilities sent to dev",
+        "y": 30
+      },
+      {
+        "x": "Patched Vulnerability",
+        "y": 10
+      },
+      {
+        "x": "To be Revalidated",
+        "y": 10
+      },
+      {
+        "x": "Closed Vulnerability",
+        "y": 50
+      }
+    ]
+  }
+}

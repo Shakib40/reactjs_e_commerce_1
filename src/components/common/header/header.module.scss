@@ -1,0 +1,131 @@
+.hMin180 {
+  min-height: 180px; }
+
+.nav {
+  z-index: 1; }
+
+.sideNav {
+  height: 100vh;
+  width: 250px;
+  position: absolute;
+  background-color: #f8f9fa; }
+  .humberger {
+    height:52px;
+  }
+
+.profilebar {
+  height: 90px;
+  width: 150px;
+  right: -2px;
+  position: absolute;
+  top: 59px;
+  display: 'flex';
+  background-color: #f8f9fa;
+}
+.menu:hover {
+  background: linear-gradient(45deg, #00a2ff 0%, #5c20ef 100%) !important;
+  color: #f8f9fa;
+}
+.profileTransperant {
+  background-color: #f8f9fa;
+  border: 0;
+  z-index: 10000;
+  position: fixed;
+}
+.sideTarsperant {
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(150, 150, 150, 0.3);
+  border: 0;
+  z-index: 10000;
+  position: fixed; }
+
+.subMenuDiv {
+  display: 'flex';
+  flex-direction: 'row';
+  padding: 15px;
+  cursor: pointer; }
+
+.subMenuDivActive {
+  background-color: #ad9f9f; }
+
+.logOut {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid; }
+
+.menuImg {
+  width: 90;
+  padding-bottom: 5px;
+  height: 50px;
+  border-radius: 50%; }
+
+.pencilMenuImg {
+  position: relative;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-left: 5px;
+  bottom: 25px; }
+
+.subMenuImg {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+  margin-left: 5px; }
+
+.subMenu {
+  font-size: 14px;
+  letter-spacing: 0;
+  font-weight: 600;}
+
+.menuIcon {
+  width: 20px;
+  height: 14px; }
+
+// .borderBottom {
+//   border-bottom: 1px solid #979797; }
+
+.btnSize {
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  font-size: 16px;
+  border: 0;
+  border-radius: 5px; }
+
+.menu {
+  padding: 10px;
+  /* border: 1px solid #979797; */
+ }
+.profile{
+  border-radius: 50%;
+  width: 45px;
+  border: 1px solid #979797;
+  height: 45px;
+  display: inline-block;
+}
+.profileFont{
+  padding-top: 7px;
+  color: #34A760;
+}
+
+.referNEarn {
+  right: 12%;
+  font-size: 18px;
+  margin-top: 8px;
+  color: #00A0FF;
+  padding-top: 2px;
+}
+
+.referralModal {
+  top: 25%;
+}
+
+.userMenu {
+  top: 13px;
+  right: 10px
+}

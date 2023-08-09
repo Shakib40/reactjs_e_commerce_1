@@ -1,0 +1,9 @@
+export default {
+  PENDING_REVIEW: 0,
+  ACCEPTED: 1,
+  REVIEWED: 3,
+  DUPLICATE: 5,
+  BEFORE_REVIEW_REJECT: 4,
+  AFTER_REVIEW_REJECT: 2,
+
+};

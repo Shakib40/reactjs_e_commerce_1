@@ -1,0 +1,191 @@
+/*form starts*/
+
+.error {
+  color: red }
+
+.form-control.form-control-custom-addon-left {
+  border-right: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0; }
+
+.form-control.form-control-custom-addon-right {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0; }
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+  background-color: #FFF; }
+
+.btn {
+  height: 35px;
+  line-height: 35px;
+  padding-top: 0;
+  padding-right: 20px;
+  padding-bottom: 0;
+  padding-left: 20px;
+  font-size: 16px;
+  font-family: Helvetica,Arial,sans-serif;
+  //border: 0px; 
+}
+
+.btn-primary {
+  /* font-weight: 400 !important; */
+  letter-spacing: 0.07px;
+  background: linear-gradient(45deg, #00a2ff 0%, #5c20ef 100%) !important;
+  color: #fff;
+  border: 0px
+}
+  .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+    box-shadow: none;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    background: linear-gradient(45deg, #00a2ff 0%, #5c20ef 100%);
+    filter: brightness(1.3);
+  }
+
+  .btn-outline-primary{
+    border: 1px solid #00a2ff !important;
+    border-radius: 5px;
+    color: #00a2ff;
+  }
+
+  .btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary:focus{
+    border: 1px solid #00a2ff !important;
+    background: transparent !important;
+    color: #00a2ff;
+    filter: brightness(1.3);
+  }
+
+.form-group {
+  margin-bottom: 30px;
+}
+
+.rw-widget-picker {
+  height: 52px;
+  border-radius: 2px !important;
+}
+
+.rw-widget-picker input[type="text"] {
+  height: 50px;
+}
+
+.custom-label-date {
+  font-size: 10px;
+  top: 30px;
+  font-weight: 100;
+  color: #717171;
+  pointer-events: none;
+  transition: all ease 0.2s;
+  z-index: 1500;
+  margin-left: 15px; }
+
+.vulHuntFormPlaceholder ::-webkit-input-placeholder{
+  color: $color-placeholder-text;
+  font-size: 14px;
+}
+
+.horizontalSeperator{
+  position: absolute;
+  left: 45%;
+  background: #F8F9FA;
+  padding: 0 4px 0 4px;
+}
+
+.customDatePicker .custom-label-date{
+  margin: 0px;
+}
+
+.customDatePicker .rw-widget-picker input[type="text"]{
+  height: 40px;
+  padding: 5px 10px 6px;
+}
+
+.customDatePicker .rw-widget-container{
+  height: inherit;
+  box-shadow: none !important;
+}
+
+.customDatePicker .rw-widget-picker{
+  border-radius: 5px !important;
+}
+/*form styles end*/
+
+/* style for the position of right component content */
+.onboard_content_position_right{
+  padding-top: 130px;
+}
+.campaign_content_position_right{
+  padding-top: 100px
+}
+
+input[type="file"] {
+  display: none;
+}
+.uploadImage {
+  height: 100px;
+}
+.background_color_transparant{
+  background-color: transparent;
+}
+// .css-yhicyj-singleValue{
+//   max-width: 60px !important;
+// }
+
+.form-control {
+  font-family: Helvetica,Arial,sans-serif;
+}
+
+.form-control::-webkit-input-placeholder, .reactSelect__placeholder, .selectSearch__placeholder {
+  font-family: Helvetica,Arial,sans-serif;
+  font-size:12px !important;
+  color: #A2A8A6;;
+}
+
+.form-control:-ms-input-placeholder, .reactSelect__placeholder, .selectSearch__placeholder {
+  font-family: Helvetica,Arial,sans-serif;
+  font-size:12px !important;
+  color: #A2A8A6;;
+}
+
+.form-control:-moz-placeholder, .reactSelect__placeholder, .selectSearch__placeholder {
+  font-family: Helvetica,Arial,sans-serif;
+  font-size:12px !important;
+  color: #A2A8A6;;
+}
+
+.form-control::-moz-placeholder, .reactSelect__placeholder, .selectSearch__placeholder {
+  font-family: Helvetica,Arial,sans-serif;
+  font-size:12px !important;
+  color: #A2A8A6;;
+}
+
+.reactSelect__control--is-focused{
+  border: 0px !important;
+  box-shadow: 0 0 0 0.2rem rgba(52, 167, 96, 0.25) !important
+}
+
+.rw-datetime-picker.rw-state-focus{
+  border-radius: 5px !important;
+  border: 0px !important;
+  box-shadow: 0 0 0 0.2rem rgba(52, 167, 96, 0.25) !important
+}
+.rw-datetime-picker.rw-state-focus .rw-widget-container:hover, .rw-datetime-picker.rw-state-focus .rw-widget-container{
+  border-color: transparent;
+}
+
+.selectSearch__control--is-focused{
+  border: 0px !important;
+  box-shadow: 0 0 0 0.2rem rgba(52, 167, 96, 0.25) !important
+  }
+.rw-widget-container ::placeholder{
+  font-family: Helvetica,Arial,sans-serif;
+  font-size:12px !important;
+  color: #A2A8A6;;
+}
+.reactSelect__placeholder{
+  opacity: 0.7;
+}
+
+.reactSelect__single-value{
+  top: 50% !important;
+}

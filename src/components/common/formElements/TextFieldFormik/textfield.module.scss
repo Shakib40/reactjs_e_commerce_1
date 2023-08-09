@@ -1,0 +1,50 @@
+input.inputField {
+  position: relative;
+  border: 1px solid #DDE0E5 !important;
+  height: 40px;
+  border-radius: 5px;
+  -webkit-box-shadow: none;
+  -webkit-input-placeholder: none;
+  box-shadow: none;
+  padding: 5px 4px 6px;
+}
+
+.customLabel {
+  composes:fw-normal clr-input-box-label from '@scss/global.css';
+  pointer-events: none;
+  -webkit-transition: all .2s ease;
+  -o-transition: all ease .2s;
+  transition: all .2s ease;
+  z-index: 10;
+  margin-bottom: 0px !important;
+}
+
+input.inputField ::-webkit-input-placeholder {
+  color: red;
+}
+
+.labelFocused {
+  composes: fs-12 from '@scss/global.css';
+}
+
+.labelBlur {
+  composes: fs-12 from '@scss/global.css';
+}
+
+.inputFocused {
+  composes: position-relative from '@scss/global.css';
+  .customLabel {
+    // color: #717171;
+    top: 5px;
+    left: 12px;
+  }
+}
+
+.inputBlur {
+  composes: position-relative from '@scss/global.css';
+  .customLabel {
+    top: 5px;
+    left: 12px;
+    // color: #9a9a9a;
+  }
+}

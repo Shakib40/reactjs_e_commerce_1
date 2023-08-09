@@ -1,0 +1,29 @@
+.welcome-page {
+    margin-top: 90px;
+    margin-bottom: 230px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    transition: all 0.2s ease;
+    box-shadow: none;
+    border: 1px solid rgba(107, 207, 153, 0.27);
+}
+  
+.welcome-page:hover {
+    box-shadow: 0px 0px 30px 0px rgba(46, 130, 75, 0.18); 
+}
+  
+.welcome-text {
+    line-height: 1.5;
+    color: #6bcf99; 
+}
+  
+.fontSize {
+    font-size: 3em;
+    text-transform: uppercase;
+    color: #cc10dd;
+    text-shadow: 0 5px 10px #1814ee;
+    opacity: .7; 
+}
