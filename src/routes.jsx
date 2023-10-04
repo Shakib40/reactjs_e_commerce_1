@@ -10,13 +10,12 @@ import Loadable from 'react-loadable';
 import PageLoader from '@components/common/PageLoader';
 // import Login from '@containers/Login';
 import Header from '@containers/common/Header';
-import OnRouteChange from '@containers/common/OnRouteChange/index';
-import Footer from '@components/common/footer';
+// import OnRouteChange from '@containers/common/OnRouteChange/index';
+// import Footer from '@components/common/footer';
 import WelcomePage from '@components/WelcomePage';
 import Notification from '@components/common/notification';
 import BeforeLogin from '@containers/BeforeLogin';
 import { APP_CONFIG } from '@constants';
-
 import ScrollTop from '@components/common/ScrollTop';
 
 const PrivateRoute = ({ component: Component, ...rest }) => (
@@ -78,26 +77,26 @@ export default (
       <Header />
       <Notification />
       <ScrollTop />
-      <OnRouteChange>
-        <Switch>
-          <PublicRoute
-            exact
-            path={`${APP_CONFIG.BASE_URL}/`}
-            component={WelcomePage}
-          />
-          <PublicRoute
-            exact
-            path={`${APP_CONFIG.BASE_URL}/login`}
-            component={BeforeLogin}
-          />
-          <PrivateRoute
-            exact
-            path={`${APP_CONFIG.BASE_URL}/dashboard`}
-            component={DashBoard}
-          />
-        </Switch>
-      </OnRouteChange>
-      <Footer />
+      {/* <OnRouteChange> */}
+      <Switch>
+        <PublicRoute
+          exact
+          path={`${APP_CONFIG.BASE_URL}/`}
+          component={WelcomePage}
+        />
+        <PublicRoute
+          exact
+          path={`${APP_CONFIG.BASE_URL}/login`}
+          component={BeforeLogin}
+        />
+        <PrivateRoute
+          exact
+          path={`${APP_CONFIG.BASE_URL}/dashboard`}
+          component={DashBoard}
+        />
+      </Switch>
+      {/* </OnRouteChange> */}
+      {/* <Footer /> */}
     </div>
   </Router>
 );

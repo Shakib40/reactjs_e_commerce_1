@@ -1,49 +1,37 @@
 
-import React, { useEffect } from 'react';
+import React from 'react';
 import { bindActionCreators } from 'redux';
 import { withRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
 import HeaderComponent from '@components/common/header/index';
-import { setNotification } from '@reducers/notification';
+import { LOGGEDIN } from '@reducers/oauth';
 
 const Header = (props) => {
-  useEffect(() => {
-    console.log(props.loggenIn);
-  }, [props.loggenIn]);
-
-  // Function for Header Right DropDown
-  const onNavigate = (url) => {
-    switch (url) {
-      case '/onboard':
-        props.history.replace('/onboard');
-        break;
-      case '/logout':
-        window.localStorage.clear();
-        window.sessionStorage.clear();
-        props.history.replace('/login');
-        break;
-      default:
-        props.history.replace({ pathname: url });
-        break;
-    }
+  const LOGGED = () => {
+    console.log('error 11');
+    props.LOGGEDIN().then((data) => {
+      console.log('error 22', data);
+    }).catch((error) => {
+      console.log('error 33', error);
+    });
   };
 
   return (
     <div>
-      <HeaderComponent onNavigate={onNavigate} loggenIn={props.loggenIn} />
+      <HeaderComponent loggenIn={props.loggenIn} LOGGEDIN={LOGGED} />
     </div>
   );
 };
 
 const mapStateToProps = ({ oauth }) => (
   {
-    userdata: oauth.userdata,
+    isLoading: oauth.isLoading,
     loggenIn: oauth.isUserLogin
   }
 );
 
 const mapDispatchToProps = dispatch => bindActionCreators({
-  setNotification,
+  LOGGEDIN,
 }, dispatch);
 
 export default withRouter(connect(

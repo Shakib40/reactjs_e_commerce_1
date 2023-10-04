@@ -1,32 +1,21 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
 import { bindActionCreators } from 'redux';
 import { withRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { Formik } from 'formik';
 import * as Yup from 'yup';
 import LoginForm from '@components/LoginForm';
-import { login } from '@reducers/oauth';
-
-import { setNotification } from '@reducers/notification';
+import { LOGGEDIN } from '@reducers/oauth';
 
 const Login = (props) => {
   const successLogin = (data) => {
     console.log(data);
     window.localStorage.setItem('isUserLogin', true);
-    // window.localStorage.setItem('access_token', data.access_token);
-    // window.localStorage.setItem('allowedServices', JSON.stringify(data.AllowedServices));
-    // window.localStorage.setItem('rocketChatAuthToken', data.userData.rocketChatAuthToken);
-    // window.localStorage.setItem('rocketChatUserId', data.userData.rocketChatUserId);
     props.history.replace('/dashboard');
   };
 
   /* Failure of login function */
-  const failureLogin = (error) => {
-    props.setNotification({
-      type: 'danger',
-      message: error.body.error_description,
-    });
+  const failureLogin = () => {
   };
 
   /* Login */
@@ -57,18 +46,17 @@ const Login = (props) => {
   );
 };
 
+
 Login.propTypes = {
 };
 
 const mapStateToProps = ({ oauth }) => ({
   loading: oauth.loading,
-  // isLoading: state.,
 });
 
 const mapDispatchToProps = dispatch => bindActionCreators(
   {
-    login,
-    setNotification,
+    LOGGEDIN,
   },
   dispatch
 );

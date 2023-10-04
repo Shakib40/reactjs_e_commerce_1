@@ -4,6 +4,44 @@
 .nav {
   z-index: 1; }
 
+.HeaderNav{
+  height: 75px;
+  background-color: #393E46;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+
+  & .HeaderTitle{
+    font-size: 26px;
+    cursor: pointer;
+  }
+
+  &  button{
+    border: none;
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+    &:hover{
+      background-color: #00ADB5;
+      color: white;
+      scale: 1.1;
+    }
+
+    &:active{
+      border: none;
+    }
+
+    &:visited{
+      border: none;
+    }
+  }
+}
+
 .sideNav {
   height: 100vh;
   width: 250px;

@@ -480,19 +480,20 @@
   width: 100%;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  @media screen and (min-width: 576px){
-    // background-image: url('../assets/images/background_small.jpg');
-    background-image: url('../assets/images/vulhunt-background.jpg');
-  }
-  @media screen and (min-width: 768px){
-    // background-image: url('../assets/images/background_medium.jpg');
-    background-image: url('../assets/images/vulhunt-background.jpg');
+  background-color: #00ADB5;
+  // @media screen and (min-width: 576px){
+  //   // background-image: url('../assets/images/background_small.jpg');
+  //   background-image: url('../assets/images/vulhunt-background.jpg');
+  // }
+  // @media screen and (min-width: 768px){
+  //   // background-image: url('../assets/images/background_medium.jpg');
+  //   background-image: url('../assets/images/vulhunt-background.jpg');
 
-  }
-  @media screen and (min-width: 992px){
-    // background-image: url('../assets/images/background_large.jpg');
-    background-image: url('../assets/images/vulhunt-background.jpg');
-  }
+  // }
+  // @media screen and (min-width: 992px){
+  //   // background-image: url('../assets/images/background_large.jpg');
+  //   background-image: url('../assets/images/vulhunt-background.jpg');
+  // }
 }
 
 // float

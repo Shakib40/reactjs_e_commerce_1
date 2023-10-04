@@ -27,7 +27,7 @@ const BeforeLogin = (props) => {
     isReg = false;
   }
   return (
-    <div className="container-fluid">
+    <div>
       <BeforeLoginComp page={showPages} isReg={isReg} />
     </div>
   );
